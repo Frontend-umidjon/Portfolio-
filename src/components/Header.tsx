@@ -69,9 +69,9 @@ export function HeaderDeck() {
     },
   ];
   return (
-    <div className="flex items-center justify-center h-[35rem] w-full">
+    <div className="fixed z-10000 bottom-[-200px] flex items-center justify-center h-[35rem] w-full">
       <FloatingDock
-        mobileClassName="translate-y-20" // only for demo, remove for production
+        mobileClassName="" // only for demo, remove for production
         items={links}
       />
     </div>
